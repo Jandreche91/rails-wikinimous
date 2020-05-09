@@ -1,0 +1,18 @@
+
+
+
+<div class="container">
+
+  <% @articles.each do |article| %>
+  <div class="px-6">
+    <%= link_to article.title.chop, article_path(article), class: "link-title my-2"  %>
+
+    <p class="text-description"><%= article.content.split(/(?<=[?.!])/)[0..1].join %>
+
+  </div>
+
+  <% end %>
+
+
+
+</div>

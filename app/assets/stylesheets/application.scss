@@ -1,2 +1,42 @@
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+
+
+
+
+.app-header {
+
+  background-color: #F8F8F8;
+  margin-bottom: 15px;
+}
+
+
+.darkgrey-link {
+color: #777;
+text-decoration: none;
+font-size: 24px;
+padding: 15px;
+font-family: monospace;
+
+}
+
+.darkgrey-link:hover {
+  text-decoration: none;
+  color:#5e5e5e;
+
+}
+
+
+.text-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
+}
+
+
+.link-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color:#337ab7;
+}

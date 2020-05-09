@@ -5,11 +5,19 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+      <div class="d-flex align-items-center justify-content-between px-4 py-2 app-header">
+          <a class="darkgrey-link" href="/articles">Wikinimous</a>
+          <h6>New article</h6>
+      </div>
+
     <%= yield %>
   </body>
 </html>
